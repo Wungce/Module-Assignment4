@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+
+.page-wrapper{
+
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+.box-content{
+
+    width: 100%;
+    background-color: gray;
+    padding: 16.5% 0%;
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box-a{
+    width: 72%;
+    padding: 13% 0%;
+    margin: 2%;
+    background-color: white;
+    border: 5px solid rgb(52, 180, 223);
+    border-radius: 13px;
+}
+.block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.box-b{
+    width: 44%;
+    margin: 2%;
+    padding: 13% 0%;
+    background-color: white;
+    border: 5px solid rgb(52, 180, 223);
+    border-radius: 13px;
+}
+.box-e{
+    width: 20%;
+    margin: 2%;
+    padding: 13% 0%;
+    background-color: white;
+    border: 5px solid rgb(52, 180, 223);
+    border-radius: 13px;
+}
+.block3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-c{
+    width: 20%;
+    margin: 2%;
+    padding: 13% 0%;
+    background-color: white;
+    border: 5px solid rgb(52, 180, 223);
+    border-radius: 13px;
+}
+.box-d{
+    width: 44%;
+    margin: 2%;
+    padding: 13% 0%;
+    background-color: white;
+    border: 5px solid rgb(52, 180, 223);
+    border-radius: 13px;
+}
+@media screen and (mim-width: 700px) {
+
+    .box-content{
+    width: 100%;
+    background-color: gray;
+    }
+
+    .block1{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .box-a{
+        width: 40%;
+        background-color: white;
+        border: 3px solid rgb(52, 180, 223);
+        border-radius: 13px;
+    }
+
+     .block2{
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .box-b{
+        width: 25%;
+        background-color: white;
+        border: 3px solid rgb(52, 180, 223);
+        border-radius: 13px;
+    }
+    .box-e{
+        width: 10%;
+        background-color: white;
+        border: 3px solid rgb(52, 180, 223);
+        border-radius: 13px;
+    }
+
+    .block3{
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .box-c{
+        width: 10%;
+        background-color: white;
+        border: 3px solid rgb(52, 180, 223);
+        border-radius: 13px;
+    }
+    .box-d{
+        width: 25%;
+        background-color: white;
+        border: 3px solid rgb(52, 180, 223);
+        border-radius: 13px;
+    } 
+}
